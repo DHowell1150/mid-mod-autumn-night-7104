@@ -22,3 +22,11 @@ Ruby 3.2.2
 - `bundle install`
 - `rails db:{create,migrate}`
 - `rails s`
+
+
+- pagination.  Tried `params = { affiliation: "Fire Nation", perpage: 150  }` = 0
+- affilation the same thing as where they live?   Took in more than ONLY firenation eg  Fire Nation New Ozai (formerly) New Ozai Society Safe Nation Society"
+- Didn't know how to implement "If they have one" or "list of allies or "None""
+- sub divs for arrays
+- refactor view page with conditionals
+- photoUrl

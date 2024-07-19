@@ -1,0 +1,26 @@
+Results: 
+
+<%= @fire_nation_peeps.each do |peep| %>
+  <div class='member'>
+    <ul>
+      <h3><p class="name"> <%= peep[:name] %> </p></h3>  
+      <% if peep[:photo] != nil %>
+        <p class="photo"> <%= peep[:photo] %> </p>
+      <% end %>
+
+      <% if peep.allies.nil? %>
+          None
+      <% elsif  %>
+          <p class="allies"> <%= peep[:allies] %> </p>
+      <% end %>
+
+      <% if peep.enemies.nil? %>
+          None 
+        <% elsif %>
+          <p class="enemies"> <%= peep[:enemies] %> </p>
+      <% end %>
+      
+      <p class="affiliation"> <%= peep[:affiliation] %> </p>
+    </ul>
+  </div>
+<% end %>
