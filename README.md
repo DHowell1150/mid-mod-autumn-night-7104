@@ -24,8 +24,9 @@ Ruby 3.2.2
 - `rails s`
 
 
-- pagination.  Tried `params = { affiliation: "Fire Nation", perpage: 150  }` = 0
-- affilation the same thing as where they live?   Took in more than ONLY firenation eg  Fire Nation New Ozai (formerly) New Ozai Society Safe Nation Society"
+'THINGS TO REFACTOR/GET TO'
+- pagination.  Tried `params = { affiliation: "Fire Nation", perpage: 150  }` = 0 results
+- affilation the same thing as where they live?   Took in more than ONLY firenation eg: "Fire Nation New Ozai (formerly) New Ozai Society Safe Nation Society"
 - Didn't know how to implement "If they have one" or "list of allies or "None""
 - sub divs for arrays
 - refactor view page with conditionals
